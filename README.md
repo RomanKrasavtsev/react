@@ -1,6 +1,6 @@
 # React.js
 
-1.
+## 1
 ```
 const Button = function() {
 	return (
@@ -9,4 +9,15 @@ const Button = function() {
 };
 
 ReactDOM.render(<Button />, mountNode);
+```
+
+## 2
+```
+const Button = function(prop) {
+	return (
+  	<button>{prop.text}</button>
+  );
+};
+
+ReactDOM.render(<Button text="hello" />, mountNode);
 ```

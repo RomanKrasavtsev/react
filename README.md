@@ -64,7 +64,7 @@ class Button extends React.Component {
 
 ReactDOM.render(<Button />, mountNode);
 ```
-
+## 5
 ```
 class Button extends React.Component {
   state = { counter: 0 };

@@ -28,14 +28,14 @@ ReactDOM.render(<Button text="hello" />, mountNode);
 ```
 class Button extends React.Component {
 	constructor(props) {
-  	super(props);
-    this.state = {counter: 1};
-  }
+		super(props);
+		this.state = {counter: 1};
+	}
   
 	render() {
-  	return (
-  		<button>{this.state.counter}</button>
-  	);
+		return (
+			<button>{this.state.counter}</button>
+    );
   }
 }
 

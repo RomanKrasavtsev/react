@@ -13,9 +13,9 @@ ReactDOM.render(<Button />, mountNode);
 
 ## 2
 ```
-const Button = function(prop) {
+const Button = function(props) {
 	return (
-  	<button>{prop.text}</button>
+  	<button>{props.text}</button>
   );
 };
 

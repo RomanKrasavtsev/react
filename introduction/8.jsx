@@ -16,7 +16,7 @@ const Card = (prop) => {
 }
 
 let user = {
-	avatar_url: 'https://avatars2.githubusercontent.com/u/12496512?v=4',
+    avatar_url: 'https://avatars2.githubusercontent.com/u/12496512?v=4',
   	name: 'Roman Krasavtsev',
   	bio: 'Passionate Software Engineer with DevOps mindset'
 }
